@@ -616,6 +616,9 @@ body {
   .works_content_item {
     flex-basis: 14rem;
   }
+  .works_Content_text {
+    max-width: 100%;
+  }
   .comment {
     flex-basis: 100%;
   }
@@ -642,7 +645,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .container {
-    max-width: 100%;
+    max-width: 95%;
   }
   .works_content_item {
     flex-basis: 100%;
